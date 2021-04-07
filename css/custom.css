@@ -1,0 +1,1031 @@
+@import 'css_1.css';
+body{
+
+    font-family: 'Roboto', sans-serif;
+}
+/*.mute {
+    position: fixed;
+    font-size: 20px;
+    z-index: 999;
+    bottom: 1.8em;
+    left: 1.8em;
+    text-shadow: 1px 1px #111111;
+}*/
+body.solid-red .online{
+
+    border:1px solid #fff;
+}
+body.solid-red .online:hover{
+
+    border:1px solid #fff;
+}
+header .item .slide-content{
+    text-shadow: 1px 1px 5px #000000
+}
+header .online, .online{
+    width: auto;
+    position: static;
+    font-size: 26px;
+    background-color: #ff6c00;
+    height:auto;
+    margin-left:0;
+}
+body.solid-red .navbar-inverse .navbar-nav > li.active > a.onlineNav{
+
+    background-color: #ff6c00 !important;
+}
+body.solid-red .btn-primary, body.solid-red .btn-xl{
+    background-color: #ff6c00;
+}
+section .section-divider{
+    margin:15px 0;
+}
+a:hover, a:active, a:focus{
+    text-decoration:none;
+}
+a.elefuntakia:hover,body.solid-red a:hover, body.solid-red a:focus, body.solid-red a:active, body.solid-red a.active{
+ color: #ff6c00 !important;  
+}
+.navbar-inverse .nav li a.onlineNav{
+    padding-top:0;
+    padding-bottom:0;
+    margin-top: 15px
+}
+.navbar-inverse .nav li a.onlineNav:hover{
+    background-color: #ff6c00;
+}
+h3.noshadow{
+    text-shadow: none;
+}
+.section-heading,.section-subheading{
+
+    font-family: 'Roboto', sans-serif;
+    /*text-shadow: 2px 2px #111111;*/
+}
+.fa{
+    text-shadow: 0px 2px #111111;
+
+}
+header .item .slide-content h1{
+    margin-top: 10px;
+}
+#skLogo{
+    max-height: 70px;
+}
+.close-modal .lr .rl{
+    height: 25px;
+}
+.close-modal .lr{
+    height: 25px;
+}
+/*.deliverypos{
+    background-image:url(../images/delivery.png);
+    position: fixed;
+    bottom: 0;
+    right:0;
+    width:250px;
+    height:250px;
+    z-index: 6000;
+    background-color: #433299; 
+    background-size:100%;
+}*/
+.modal-content .container{
+    margin-top:-100px;
+}
+.navbar-inverse .nav li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-transform: none;
+}
+.navbar-inverse{
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+}
+#homeanchor{
+    position: absolute;
+    top:200vh;
+    margin-top: 75px;
+    left:0;
+    height: 1px;
+    width: 1px;
+    background-color: #433299;
+}
+header .item .slide-content h1{
+    font-size: 46px;
+}
+header .item .slide-content h2{
+    font-size: 36px;
+}
+/* Home2 section */
+#home {
+    z-index: 1;
+    color: #fff;
+    padding-top:35vh;
+    /* Change background image for #unique section here */
+    background: url('../images/restaurant.jpg') no-repeat center center scroll;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;/**/
+    min-height: 100vh;
+    max-height: 100vh;
+}
+#home .section-heading,
+#home .section-subheading {
+    color: #fff;
+    font-size: 35px;
+}
+#home .section-subheading {
+    /*font-family: 'Old Standard TT', serif;*/
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+}
+#home .fa {
+    color: #fff;
+}
+#homeanchor{
+    position: absolute;
+    top:300vh;
+    margin-top: 75px;
+    left:0;
+    height: 1px;
+    width: 1px;
+    background-color: #433299;
+}
+/* Home2 section */
+#home2 {
+    z-index: 1;
+    color: #fff;
+    padding-top:35vh;
+    /* Change background image for #unique section here */
+    background: url('../images/bannerAgAnargyroi2.jpg') no-repeat center center scroll;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+#home2 .section-heading,
+#home2 .section-subheading {
+    color: #fff;
+    font-size: 35px;
+}
+#home2 .section-subheading {
+    /*font-family: 'Old Standard TT', serif;*/
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+#home2 .fa {
+    color: #fff;
+}
+/* Home2 section */
+#home4 {
+    z-index: 1;
+    color: #fff;
+    padding-top:35vh;
+    /* Change background image for #unique section here */
+    background: url('../images/filadelfeiamprosta.jpg') no-repeat center center scroll;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+#home4 .section-heading,
+#home4 .section-subheading {
+    color: #fff;
+    font-size: 35px;
+}
+#home4 .section-subheading {
+    /*font-family: 'Old Standard TT', serif;*/
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+#home4 .fa {
+    color: #fff;
+}
+/* Home2 section */
+#home3 {
+    z-index: 1;
+    color: #fff;
+    padding-top:35vh;
+    /* Change background image for #unique section here */
+    background: url('../images/bannerAgAnargyroi2.jpg') no-repeat center center scroll;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+#home3 .section-heading,
+#home3 .section-subheading {
+    color: #fff;
+    font-size: 35px;
+}
+#home3 .section-subheading {
+    /*font-family: 'Old Standard TT', serif;*/
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+#home3 .fa {
+    color: #fff;
+}
+#home2anchor{
+    position: absolute;
+    top:150vh;
+    margin-top: 75px;
+    left:0;
+    height: 1px;
+    width: 1px;
+    background-color: #433299;
+}
+#online {
+    /*padding: 25px 0;*/
+    /*  z-index: 1;
+      color: #000;
+       Change background image for #unique section here 
+      background: url('../images/unique_chain_bg.jpg') no-repeat center center scroll;
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;*/
+
+    /*background: url('../images/giaourtlou.jpg') no-repeat center center scroll;*/
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+
+.food {
+    /*  z-index: 1;
+      color: #000;
+      padding: 25px 0;*/
+    /* Change background image for #unique section here */
+    /*  background: url('../images/doner.jpg') no-repeat center center scroll;
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;*/
+    height: 200px;
+}
+/* Unique section */
+#istoria {
+    z-index: 1;
+    color: #000;
+    padding: 25px 0;
+    /* Change background image for #unique section here */
+    /*background: url('../images/unique_chain_bg.jpg') no-repeat center center scroll;*/
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+#istoria .section-heading,
+#istoria .section-subheading {
+    color: #fff;
+    font-size: 35px;
+}
+#istoria .section-subheading {
+    font-weight: bold;
+    font-style: normal;
+}
+#istoria .fa {
+    color: #fff;
+}
+#istoriaanchor{
+    position: absolute;
+    top:400vh;
+    margin-top: 0px;
+    left:0;
+    height: 1px;
+    width: 1px;
+    background-color: #433299;
+}
+#onlineanchor{
+    position: absolute;
+    top:105vh;
+    margin-top: 0px;
+    left:0;
+    height: 1px;
+    width: 1px;
+    background-color: #433299;
+    /*z-index: 5000;*/
+}
+/* Unique section */
+#ergastirio {
+    z-index: 1;
+    color: #000;
+    padding: 25px 0;
+    /* Change background image for #unique section here */
+    /*background: url('../images/banners/ergastirio.jpg') no-repeat center center scroll;*/
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+#ergastirio .section-heading,
+#ergastirio .section-subheading {
+    color: #fff;
+    font-size: 35px;
+}
+#ergastirio .section-subheading {
+    font-weight: bold;
+    font-style: normal;
+}
+#ergastirio .fa {
+    color: #fff;
+}
+#ergastirioanchor{
+    position: absolute;
+    top:500vh;
+    margin-top: 0px;
+    left:0;
+    height: 1px;
+    width: 1px;
+    background-color: #433299;
+}
+/* Unique section */
+#franchise {
+    z-index: 1;
+    color: #000;
+    padding: 25px 0;
+    /* Change background image for #unique section here */
+    /*background: url('../images/banners/ergastirio.jpg') no-repeat center center scroll;*/
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+#franchise .section-heading,
+#franchise .section-subheading {
+    color: #fff;
+    font-size: 35px;
+}
+#franchise .section-subheading {
+    font-weight: bold;
+    font-style: normal;
+}
+#franchise .fa {
+    color: #fff;
+}
+#franchiseanchor{
+    position: absolute;
+    top:600vh;
+    margin-top: 0px;
+    left:0;
+    height: 1px;
+    width: 1px;
+    background-color: #433299;
+}
+/* Unique section */
+#events {
+    z-index: 1;
+    color: #000;
+    padding: 25px 0;
+    /* Change background image for #unique section here */
+    /*background: url('../images/banners/ergastirio.jpg') no-repeat center center scroll;*/
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+#events .section-heading,
+#events .section-subheading {
+    color: #fff;
+    font-size: 35px;
+}
+#events .section-subheading {
+    font-weight: bold;
+    font-style: normal;
+}
+#events .fa {
+    color: #fff;
+}
+#eventsanchor{
+    position: absolute;
+    top:700vh;
+    margin-top: 0px;
+    left:0;
+    height: 1px;
+    width: 1px;
+    background-color: #433299;
+}
+#synenteukseis {
+    z-index: 1;
+    color: #fff;
+    padding-top:35vh;
+    /* Change background image for #unique section here */
+    background: url('../images/interview-1.jpg') no-repeat center center scroll;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+#synenteukseis .section-heading,
+#synenteukseis .section-subheading {
+    color: #fff;
+    font-size: 35px;
+}
+#synenteukseis .section-subheading {
+    /*font-family: 'Old Standard TT', serif;*/
+    font-weight: bold;
+    font-style: normal;
+}
+#synenteukseis .fa {
+    color: #fff;
+}
+#synenteukseisanchor{
+    position: absolute;
+    top:800vh;
+    margin-top: 75px;
+    left:0;
+    height: 1px;
+    width: 1px;
+    background-color: #433299;
+}
+
+#restaurants{
+    z-index: 1;
+    color: #000;
+    padding: 25px 0;
+    /* Change background image for #unique section here */
+    background: url('../images/katastimata.jpg') no-repeat center center scroll;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+#restaurantsanchor{
+    position: absolute;
+    top:690vh;
+    margin-top: 0px;
+    left:0;
+    height: 1px;
+    width: 1px;
+    background-color: #433299;
+}
+
+#agAnargyroi_map, #filadelfeia_map, #monastiraki_map, #marousi_map, #xolargos_map, #kypseli_map, #keratsini_map, #korydallos_map {
+    display: block;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto 50px auto;
+}
+#shop1{
+    background-image: url('../images/doner.jpg');
+    background-size: 100% 100%;
+    min-height: 240px;
+}
+#shop2{
+    background-image: url('../images/kaisarias.jpg');
+    background-size: 100% 100%;
+    min-height: 240px;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px
+}
+#shopText{
+    height: 150px;
+    background-color: rgba(1,1,1,0.8);
+    color: #fff;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    text-shadow:2px 2px #000000;
+    transition: background-color 0.5s linear;
+}
+#shopText:hover{
+    background-color: rgba(1,1,1,0.7);
+}
+#paraggelia{
+    color: #ffde00;
+}
+#shopText a{
+    color: #fff;
+}
+#shopText a:hover{
+    text-decoration: none;
+}
+#shop3{
+    background-image: url('../images/xoirines.jpg');
+    background-size: 100% 100%;
+    min-height: 240px;
+}
+#shop4{
+    background-image: url('../images/oriental.jpg');
+    background-size: 100% 100%;
+    min-height: 240px;
+}
+#shop5{
+    background-image: url('../images/patates.jpg');
+    background-size: 100% 100%;
+    min-height: 240px;
+}
+#shop6{
+    background-image: url('../images/falafel.jpg');
+    background-size: 100% 100%;
+    min-height: 240px;
+}
+#shop7{
+    background-image: url('../images/salataspecial.jpg');
+    background-size: 100% 100%;
+    min-height: 240px;
+}
+#shop8{
+    background-image: url('../images/tabule.jpg');
+    background-size: 100% 100%;
+    min-height: 240px;
+}
+
+#shop9{
+    background-image: url('../images/salata.jpg');
+    background-size: 100% 100%;
+    min-height: 240px;
+}
+#shop10{
+    background-image: url('../images/laxmatzoun.jpg');
+    background-size: 100% 100%;
+    min-height: 240px;
+}
+
+#shop11{
+    background-image: url('../images/tylixta.jpg');
+    background-size: 100% 100%;
+    min-height: 240px;
+}
+
+#shop12{
+    background-image: url('../images/giaourtloukebap.jpg');
+    background-size: 100% 100%;
+    min-height: 240px;
+}
+
+#contactanchor{
+    position: absolute;
+    top:1060vh;
+    margin-top: 0px;
+    left:0;
+    height: 1px;
+    width: 1px;
+    background-color: #433299;
+}
+
+.home-contact-section {
+    /* Change background image for #unique section here */
+    background: url('../images/IMG_1115.jpg') no-repeat center center scroll;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+#contact-form {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    text-align: center;
+    padding: 30px 0 10px 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+form {
+    display: block;
+    margin-top: 0em;
+
+    font-family: 'Roboto', sans-serif;
+}
+input.contact-input, textarea {
+    background-color: #fff;
+    color: #000;
+}
+input.contact-input, textarea {
+    color: #F3F3F3;
+    border: 2px solid #F3F3F3;
+}
+input.contact-input {
+    width: 100%;
+    height: 55px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 20px;
+    color: #fff;
+    border: 2px solid #454545;
+    background-color: rgba(1,1,1,0.7);
+    font-size: 14px;
+    /*    float: left;*/
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input {
+    line-height: normal;
+}
+textarea {
+    height: 205px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    border: 2px solid #454545;
+    background-color: rgba(1,1,1,0.7);
+    font-size: 14px;
+    /*float: left;*/
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+textarea {
+    overflow: auto;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+input.contact-submit:hover {
+    color: #F3F3F3;
+    border: 2px solid #F3F3F3;
+}
+input.contact-submit:hover {
+    color: #F3F3F3;
+    background-color: #a30711;
+    border: 2px solid #ffffff;
+    transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -webkit-transition: all .50s ease-in-out;
+}
+input.contact-submit {
+    border: 2px solid #FFFFFF;
+    background-color: #625B4A;
+}
+input.contact-submit {
+    color: #fff;
+    border: 2px solid #ffffff;
+    background-color: #a30711;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 16px 30px;
+    position: relative;
+    /* text-transform: uppercase; */
+    transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -webkit-transition: all .50s ease-in-out;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+.section-title{
+    color: #fff;
+    font-size: 30px;
+    text-shadow: 1px 1px 5px #000000;
+
+}
+.home-contact-section{
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 1px 1px 5px #000000;
+
+}
+input { 
+    text-transform: lowercase !important;
+    font-family: 'Arial';
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    text-transform: lowercase !important;
+    font-family: 'Arial';
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    text-transform: lowercase !important;
+    font-family: 'Arial';
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    text-transform: lowercase !important;
+    font-family: 'Arial';
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    text-transform: lowercase !important;
+    font-family: 'Arial';
+}
+.section-subheading-less{
+    margin-bottom: 30px;
+}
+.popup-modal .modal-content h3{
+    margin-bottom: 10px;
+}
+body.solid-red a.btn-online{
+    background: #ff6a00;
+    background-image: -webkit-linear-gradient(top, #ff6a00, #ff6a00);
+    background-image: -moz-linear-gradient(top, #ff6a00, #ff6a00);
+    background-image: -ms-linear-gradient(top, #ff6a00, #ff6a00);
+    background-image: -o-linear-gradient(top, #ff6a00, #ff6a00);
+    background-image: linear-gradient(to bottom, #ff6a00, #ff6a00);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+body.solid-red a.btn-online:hover{
+    background: #e36307;
+    background-image: -webkit-linear-gradient(top, #e36307, #b54b00);
+    background-image: -moz-linear-gradient(top, #e36307, #b54b00);
+    background-image: -ms-linear-gradient(top, #e36307, #b54b00);
+    background-image: -o-linear-gradient(top, #e36307, #b54b00);
+    background-image: linear-gradient(to bottom, #e36307, #b54b00);
+    text-decoration: none;
+}
+.darker{
+    padding:10px 0;
+    background-color: rgba(1,1,1,0.6);
+}
+.pads{
+    padding-right: 250px;
+    padding-left: 250px;
+}
+.syn1{
+    background-color: rgba(1,1,1,0.2);
+    width:500px;
+    text-align: left;
+    margin: 0 auto;
+}
+.syn2{
+    background-color: rgba(1,1,1,0.2);
+    width:500px;
+    text-align: right;
+    margin: 0 auto;
+}
+#offersOuter{
+    position: absolute;
+    top: 120px;
+    left: 0;
+    z-index: 1000;
+    width: 300px;
+    color: #fff;
+}
+#offer1{
+    margin: 5px 0;
+    background-color: rgb(1, 181, 216);
+    font-size: 18px;
+    padding: 1px;
+}
+#offer1inner{
+    border: 1px dashed #fff;
+    margin: 5px;
+    min-height: 50px;
+    vertical-align: middle;
+    padding: 3px;
+}
+#offer1Title{
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)  { 
+    #skLogo{
+        width: 60px;
+        padding-top: 10px;
+        margin-left: 30px;
+    }
+    #home, #home2,#home3, #synenteukseis, #contact{
+        background-attachment:  inherit;
+        -webkit-background-size: inherit;
+        -moz-background-size: inherit;
+        background-size: cover;
+        -o-background-size: inherit;/**/
+    }
+    #events{
+        max-height: none;
+    }
+    #shop1,#shop2,#shop3,#shop4,#shop5,#shop6,#shop7,#shop8{
+        min-height: 300px;
+    }
+    #ergastirioanchor{
+        top:620vh;
+    }
+    #restaurantsanchor{
+        top:910vh;
+    }
+    #synenteukseisanchor{
+        top:1050vh;
+    }
+    #contactanchor{
+        top:1325vh;
+    }
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+    #home, #home2,#home3, #synenteukseis, #contact, #restaurants{
+        background-attachment:  inherit;
+        -webkit-background-size: inherit;
+        -moz-background-size: inherit;
+        background-size: cover;
+        -o-background-size: inherit;/**/
+    }
+    .navbar-left{
+        float: right!important;
+    }
+    .navbar-default .navbar-brand, .navbar-inverse .navbar-brand{
+        float: left;
+        display: inline;
+        left:10%;
+        margin-top:10px;
+    }
+    #shop1,#shop2,#shop3,#shop4,#shop5,#shop6,#shop7,#shop8{
+        min-height: 300px;
+    }
+    #events{
+        max-height: none;
+    }
+    #onlineanchor{
+        top:295vh;
+    }
+    #ergastirioanchor{
+        top:570vh;
+    }
+    #restaurantsanchor{
+        top:780vh;
+    }
+    #contactanchor{
+        top:1130vh;
+    }
+}
+@media (max-width: 991px){
+
+
+    #offersOuter{
+        /*display: none;*/
+        bottom: 0;
+        top:inherit;
+        width: 150px;
+    }
+
+    #offer1{
+        font-size: 10px;
+    }
+    .pads{
+        padding: 0 5px;
+    }
+    #home3 .section-heading, #home3 .section-subheading{
+        font-size: 20px;
+    }
+    #home3 .section-subheading{
+        font-size: 14px;
+    }
+    #home2 .section-heading, #home2 .section-subheading{
+        font-size: 20px;
+    }
+    #home2 .section-subheading{
+        font-size: 14px;
+    }
+    #home .section-heading, #home .section-subheading{
+        font-size: 20px;
+    }
+    #home .section-subheading{
+        font-size: 14px;
+    }
+    #home2{
+        padding-top: 50px;
+    }
+    #home3{
+        padding-top: 50px;
+    }
+    #home{
+        padding-top: 50px;
+    }
+    .syn{
+        font-size: 15px;
+    }
+    #shop1,#shop2,#shop3,#shop4,#shop5,#shop6,#shop7,#shop8,#shop9,#shop10,#shop11,#shop12{
+        display: none;
+    }
+    #online{
+        /*display: none;*/
+        /*min-height: 100vh;*/
+    }
+    .current{
+        /*background-color: #433299;*/
+    }
+    .section-subheading{
+        margin-bottom: 50px;
+    }
+    #events,#istoria{
+        max-height: none;
+    }
+    #home, #home2,#home3, #synenteukseis, #contact, #restaurants{
+        background-attachment:  inherit;
+        -webkit-background-size: inherit;
+        -moz-background-size: inherit;
+        background-size: cover;
+        -o-background-size: inherit;/**/
+    }
+    .syn1{
+        width:100vw;
+    }
+    .syn1 h2{
+        font-size: 16px;
+    }
+    .syn2{
+        width:100vw;
+    }
+    .syn2 h2{
+        font-size: 16px;
+    }
+    #contact{
+        padding: 0;
+    }
+    section{
+        padding:0;
+    }
+    input.contact-input{
+        height: 35px;
+    }
+    textarea{
+        height: 100px;
+    }
+    .navbar-default .navbar-brand, .navbar-inverse .navbar-brand{
+        display: inline;
+    }
+    #skLogo {
+        max-height: 40px;
+        margin-top: -10px;
+    }
+
+    #istoriaanchor{
+        top:315vh;
+    }
+    #ergastirioanchor{
+        top:555vh;
+    }
+    #eventsanchor{
+        top:560vh;
+    }
+    #restaurantsanchor{
+        top:940vh;
+    }
+    #contactanchor{
+        top:1550vh;
+    }
+}
